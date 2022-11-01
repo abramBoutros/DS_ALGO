@@ -1,0 +1,19 @@
+// Binary search
+
+// 1 - sort the array
+
+// 2 - create left at the start of an array and right points at the end pointers
+
+// 3 - loop over the upcoming process
+
+// 4 - check if the left has not passed the right
+
+// 5 - check the middle element to find if it's a match if true return
+
+// 6 - if the value of that element is smaller than ours
+// move the left pointer to be index the middle + 1
+
+// 7 - if the value value of that element is bigger than ours
+// move the right value to be index middle - 1
+
+// 8 - if never found return -1
