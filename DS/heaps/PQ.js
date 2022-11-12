@@ -32,7 +32,25 @@ class PQ {
 	}
 
 	// remove the root and return it
-	dequeue() {}
+	dequeue() {
+		const max = this.values[0];
+		const end = this.values.pop();
+
+		if (this.values.length > 0) {
+			this.values[0] = end;
+			this.sinkDown();
+		}
+
+		return max;
+	}
+
+	sinkDown() {
+		let idx = 0;
+		const length = this.values.length;
+		const el = this.values[0];
+
+		while (true) {}
+	}
 }
 
 // let node1 = new Node("me", 0);
